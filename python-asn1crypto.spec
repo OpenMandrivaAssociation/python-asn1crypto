@@ -8,6 +8,7 @@ Url:		http://github.com/wbond/asn1crypto
 Source0:	http://pypi.python.org/pypi/asn1crypto/asn1crypto-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
 %rename asn1crypto
 
 %description
@@ -19,6 +20,7 @@ compiler is planned for implementation in the future.
 Summary:	ASN.1 tools for Python 2.x
 Group:		Development/Python
 BuildRequires:	pkgconfig(python)
+BuildRequires:	python2-setuptools
 
 %description -n python2-asn1crypto
 This project is dedicated to implementation of ASN.1 types (concrete syntax)
