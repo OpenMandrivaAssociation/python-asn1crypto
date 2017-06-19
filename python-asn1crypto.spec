@@ -1,11 +1,11 @@
 Summary:	ASN.1 tools for Python
 Name:		python-asn1crypto
-Version:	0.21.1
+Version:	0.22.0
 Release:	1
 License:	BSD
 Group:		Development/Python
 Url:		http://github.com/wbond/asn1crypto
-Source0:	http://pypi.python.org/pypi/asn1crypto/asn1crypto-%{version}.tar.gz
+Source0:	https://github.com/wbond/asn1crypto/archive/%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
