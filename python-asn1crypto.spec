@@ -7,7 +7,7 @@ Group:		Development/Python
 Url:		http://github.com/wbond/asn1crypto
 Source0:	https://github.com/wbond/asn1crypto/archive/%{version}.tar.gz
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python-setuptools
 %rename asn1crypto
 
@@ -19,7 +19,7 @@ compiler is planned for implementation in the future.
 %package -n python2-asn1crypto
 Summary:	ASN.1 tools for Python 2.x
 Group:		Development/Python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 BuildRequires:	python2-setuptools
 
 %description -n python2-asn1crypto
