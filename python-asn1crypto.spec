@@ -1,7 +1,7 @@
 Summary:	ASN.1 tools for Python
 Name:		python-asn1crypto
 Version:	1.5.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Python
 Url:		http://github.com/wbond/asn1crypto
