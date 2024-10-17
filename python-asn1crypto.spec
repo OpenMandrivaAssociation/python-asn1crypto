@@ -4,7 +4,7 @@ Version:	1.5.1
 Release:	2
 License:	BSD
 Group:		Development/Python
-Url:		http://github.com/wbond/asn1crypto
+Url:		https://github.com/wbond/asn1crypto
 Source0:	https://github.com/wbond/asn1crypto/archive/%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
